@@ -1,0 +1,304 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/background-header.jpg");
+  background-position: top center;
+  background-repeat: repeat-x;
+  font-family: 'Montserrat', sans-serif;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.text-center {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.alert {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: RobotoMedium;
+  font-size: 1em;
+  font-weight: normal;
+}
+.alert-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+.alert-danger {
+  background-color: #f2dede;
+  color: #a94442;
+}
+.loading {
+  display: none;
+}
+input.error,
+textarea.error {
+  border: solid 1px #e42020;
+}
+label.error {
+  font-family: RobotoMedium;
+  font-size: 0.7em;
+  font-weight: normal;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #e42020;
+}
+/******************************
+HEADER
+******************************/
+.logo-devir {
+  padding: 15px 15px 10px 15px;
+  display: inline-block;
+}
+.logo-devir img {
+  width: 100px;
+}
+header {
+  width: 100%;
+  margin-top: 25px;
+}
+header img {
+  margin: 0 auto;
+  width: 30%;
+}
+nav {
+  padding: 60px;
+}
+@media only screen and (max-width: 965px) {
+  nav {
+    padding: 10px;
+  }
+}
+nav a {
+  margin: 10px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #298a34;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+nav a:hover {
+  color: #deb763;
+}
+/******************************
+ELFO
+******************************/
+.elfo {
+  width: 965px;
+  padding-left: 88px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 965px) {
+  .elfo {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+.elfo p {
+  clear: both;
+  font-size: 30px;
+  width: 80%;
+}
+@media only screen and (max-width: 965px) {
+  .elfo p {
+    width: 100%;
+  }
+}
+.elfo .elfo-txt {
+  float: left;
+  margin-top: 20%;
+}
+@media only screen and (max-width: 965px) {
+  .elfo .elfo-txt {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+}
+.elfo .elfo-txt h3 {
+  font-size: 41px;
+  line-height: 40px;
+}
+.elfo .elfo-txt h4 {
+  font-size: 35px;
+}
+.elfo .elfo-txt h5 {
+  font-size: 24px;
+  font-weight: 100;
+}
+/******************************
+PROGRAMACAO
+******************************/
+.programacao {
+  margin: 100px 0 0 0;
+  padding: 60px 0;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/background-green.jpg");
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.5);
+  position: relative;
+}
+.programacao p {
+  font-size: 35px;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 965px) {
+  .programacao p {
+    font-size: 28px;
+  }
+}
+.programacao h2 {
+  font-weight: 100;
+  font-size: 40px;
+}
+@media only screen and (max-width: 965px) {
+  .programacao h2 {
+    font-size: 30px;
+  }
+}
+.programacao a {
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 5px 10px;
+  font-size: 35px;
+  font-weight: 100;
+  text-decoration: none;
+  margin-top: 100px;
+  display: inline-block;
+}
+/******************************
+CADASTRO
+******************************/
+.btn-cadastro {
+  color: #117d1d;
+  border: solid 1px #117d1d;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: none;
+  margin: 100px 0;
+  display: inline-block;
+}
+.btn-cadastro:hover {
+  background: #117d1d;
+  color: #fff;
+}
+.cadastro {
+  text-align: center;
+}
+.cadastro h2 {
+  color: #117d1d;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 965px) {
+  .cadastro h2 {
+    font-size: 30px;
+  }
+}
+.cadastro input {
+  background-color: #117d1d;
+  color: #fff;
+  border-radius: 5px;
+  display: list-item;
+  margin: 10px auto;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+@media only screen and (max-width: 401px) {
+  .cadastro input {
+    width: 90%;
+  }
+}
+.cadastro input::-webkit-input-placeholder {
+  color: #e0dbdb;
+}
+.cadastro input input:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+.cadastro button {
+  font-size: 30px;
+  color: #117d1d;
+  border-radius: 5px;
+  border: solid 1px #117d1d;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 315px;
+}
+.cadastro button:hover {
+  background-color: #deb763;
+  color: #fff;
+}
+/******************************
+MAPA
+******************************/
+.mapa {
+  text-align: center;
+  margin-top: 50px;
+  width: 600px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .mapa {
+    width: 100%;
+  }
+}
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+/******************************
+FOOTER
+******************************/
+footer {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+footer img {
+  margin-top: 20px;
+}
+.background-footer {
+  background-image: url("../img/background-footer.jpg");
+  background-position: bottom center;
+  padding-top: 100px;
+}
